@@ -1,0 +1,12 @@
+body{
+	padding-top: 120px;
+}
+
+.navbar-inverse {
+	background-color: #333;
+	border-color: #080808;
+	padding: 28px 0;
+}
+.submit{
+	padding: 20px 0 ;
+}
