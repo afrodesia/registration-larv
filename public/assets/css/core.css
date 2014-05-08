@@ -44,7 +44,9 @@ a:hover{
 
 /* FORM BUTTON & INPUT STYLES */
 
-
+.edit-form{
+	margin-bottom: 20px;
+}
 input[type=submit]{
 	margin: 20px 0 ;
 }
@@ -78,8 +80,8 @@ input[type=submit]{
 	padding: 10px 20px;
 	background-color: #f3f3f3;
 	border-radius: 5px;
-	width:30%;
-	float: right;
+	margin-top: 25px;
+	float: right; 
 }
 .links{
 	list-style: none;
@@ -92,8 +94,9 @@ input[type=submit]{
 	border-color: #ccc;
 	border: 1px solid #ccc;
 	color: #fff;
-	display: inline-block;
+	display: inline;
 	float: right;
 	padding: 4px 10px;
-	border-radius: 5px; 
+	border-radius: 5px;
+
 }

@@ -33,7 +33,11 @@ Route::resource('sessions', 'SessionsController', ['only' => ['create','store', 
 |--------------------------------------------------------------------------
 */
 
+Route::resource('profile', 'ProfilesController', 
+	['only' => ['show', 'edit', 'update']]);
 Route::get('/{profile}', ['as' => 'profile', 'uses' => 'ProfilesController@show']);
+
+// This route needs to be replaced
 Route::get('/{profile}/edit', ['as' => 'profile.edit', 'uses' => 'ProfilesController@edit']);
 
 
