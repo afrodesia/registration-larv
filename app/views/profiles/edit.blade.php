@@ -16,24 +16,28 @@
             <div class"form-group">
                 {{ Form::label('location', 'Location:') }}
                 {{ Form::text('location', null, ['class' => 'form-control']) }}
+                {{ $errors->first('location', '<span class="error">:message</span>') }}
             </div>
 
             <!--Bio Field  -->
              <div class"form-group">
                 {{ Form::label('bio', 'Bio:') }}
                 {{ Form::textarea('bio', null, ['class' => 'form-control']) }}
+                {{ $errors->first('bio', '<span class="error">:message</span>') }}
             </div>
 
             <!--Twitter Field  -->
              <div class"form-group">
                 {{ Form::label('twitter_username', 'Twitter Profile Name:') }}
                 {{ Form::text('twitter_username', null, ['class' => 'form-control']) }}
+                {{ $errors->first('twitter_username', '<span class="error">:message</span>') }}
             </div>
 
             <!--Github Field  -->
              <div class"form-group">
                 {{ Form::label('github_username', 'Github Profile Name:') }}
                 {{ Form::text('github_username', null, ['class' => 'form-control']) }}
+                {{ $errors->first('github_username', '<span class="error">:message</span>') }}
             </div>
 
             <!--Submit  -->

@@ -11,6 +11,8 @@ class ProfilesController extends \BaseController {
 	function __construct(ProfileForm $profileForm)
 	{
 		$this->profileForm = $profileForm;
+
+		$this->beforeFilter('currentUser', ['only' => ['edit', 'update']]);
 	}
 	
 	/**

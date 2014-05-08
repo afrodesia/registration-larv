@@ -19,7 +19,7 @@
         </ul>
 
       
-  @if (Auth::user()->id == $user->id)
+  @if ($user->isCurrent())
         <p class="edit-profile"> {{ link_to_route('profile.edit', 'Edit Your Profile', $user->username) }}</p>
  @endif        
         </article>
