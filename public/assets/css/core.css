@@ -1,9 +1,15 @@
 body{
 	padding-top: 120px;
 }
-
-
-
+h1{
+	font-size: 4em;
+}
+a{
+	color:#c45050;
+}
+a:hover{
+	color:#333;
+}
 /* HEADER & NAV STYLES */
 
 
