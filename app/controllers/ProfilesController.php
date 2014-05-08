@@ -69,6 +69,7 @@ class ProfilesController extends \BaseController {
 		$user->profile->fill($input)->save();
 
 		return Redirect::route('profile.edit', $user->username);
+		
 	}
 
 }

@@ -1,3 +1,6 @@
 ## Registration.it - Laravel App
 
-An simp app designed to deal with user registration and session handling for multiple users accounts.
+An simple app designed to deal with user registration and session handling for multiple users accounts and profiles.
+
+Looking forward to expand the user account system to deal with basic CRUD actions
+ 
