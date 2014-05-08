@@ -14,7 +14,7 @@ Route::get('/', ['as' => 'home', 'uses' => 'PagesController@index']);
 |--------------------------------------------------------------------------
 */
 
-Route::get('register', 'RegistrationController@create');
+Route::get('register', 'RegistrationController@create')->before('guest');
 Route::post('register', ['as' => 'registration.store', 'uses' => 'RegistrationController@store']);
 
 

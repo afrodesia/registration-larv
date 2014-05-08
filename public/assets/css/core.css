@@ -7,6 +7,9 @@ body{
 	border-color: #080808;
 	padding: 28px 0;
 }
-.submit{
-	padding: 20px 0 ;
+input[type=submit]{
+	margin: 20px 0 ;
+}
+.form-group input{
+	margin-bottom: 10px;
 }

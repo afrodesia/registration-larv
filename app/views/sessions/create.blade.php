@@ -1,5 +1,6 @@
 @extends('layouts.master')
 
+@section('meta-title', 'registration.it - Log In!')
 
 @section('content')
 
