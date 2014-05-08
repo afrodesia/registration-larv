@@ -29,5 +29,15 @@ class ProfilesController extends \BaseController {
 		return View::make('profiles.show')->withUser($user);
 	}
 
+		/**
+	 * Show the form for editing the specified resource.
+	 *
+	 * @param  int  $id
+	 * @return Response
+	 */
+	public function edit($username)
+	{
+		return View::make('profile');
+	}
 
 }

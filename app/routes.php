@@ -33,7 +33,8 @@ Route::resource('sessions', 'SessionsController', ['only' => ['create','store', 
 |--------------------------------------------------------------------------
 */
 
-Route::get('/{profile}', 'ProfilesController@show');
+Route::get('/{profile}', ['as' => 'profile', 'uses' => 'ProfilesController@show']);
+Route::get('/{profile}/edit', ['as' => 'profile.edit', 'uses' => 'ProfilesController@edit']);
 
 
 

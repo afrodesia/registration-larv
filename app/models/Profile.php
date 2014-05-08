@@ -6,5 +6,6 @@ class Profile extends Eloquent{
 	{
 		return $this->belongsTo('User');
 	}
+	
 
 }
