@@ -7,7 +7,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">registration.it!</a>
+          <a class="navbar-brand" href="/"><span class="fa fa-bolt"></span>registration<span class="fa fa-circle"></span>it!</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">

@@ -12,6 +12,10 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
+    <!-- FontAwesome CSS -->
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css">
+
     <!-- Custom CSS -->
 
     <link rel="stylesheet" href="{{asset("assets/css/core.css")}}" type="text/css" />
