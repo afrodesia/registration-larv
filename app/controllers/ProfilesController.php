@@ -21,6 +21,7 @@ class ProfilesController extends \BaseController {
 	 * @param  int  $id
 	 * @return Response
 	 */
+	
 	public function show($username)
 	{
 		try
@@ -33,18 +34,16 @@ class ProfilesController extends \BaseController {
 			return Redirect::home();
 		}
 
-		
-
-
 		return View::make('profiles.show')->withUser($user);
 	}
 
-		/**
+	/**
 	 * Show the form for editing the specified resource.
 	 *
 	 * @param  int  $id
 	 * @return Response
 	 */
+	
 	public function edit($username)
 	{
 		$user = User::whereUsername($username)->firstOrFail();
@@ -52,12 +51,13 @@ class ProfilesController extends \BaseController {
 		return View::make('profiles.edit')->withUser($user);
 	}
 
-		/**
+	/**
 	 * Update the specified resource in storage.
 	 *
 	 * @param  int  $id
 	 * @return Response
 	 */
+	
 	public function update($username)
 	{
 		$user = User::whereUsername($username)->firstOrFail();

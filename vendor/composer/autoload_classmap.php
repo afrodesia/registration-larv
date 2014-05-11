@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Afro\\Forms\\LoginForm' => $baseDir . '/app/Afro/Forms/LoginForm.php',
+    'Afro\\Forms\\ProfileForm' => $baseDir . '/app/Afro/Forms/ProfileForm.php',
     'Afro\\Forms\\RegistrationForm' => $baseDir . '/app/Afro/Forms/RegistrationForm.php',
     'BaseController' => $baseDir . '/app/controllers/BaseController.php',
     'Boris\\Boris' => $vendorDir . '/d11wtq/boris/lib/Boris/Boris.php',
@@ -30,6 +31,7 @@ return array(
     'ClassPreloader\\Parser\\DirVisitor' => $vendorDir . '/classpreloader/classpreloader/src/ClassPreloader/Parser/DirVisitor.php',
     'ClassPreloader\\Parser\\FileVisitor' => $vendorDir . '/classpreloader/classpreloader/src/ClassPreloader/Parser/FileVisitor.php',
     'ClassPreloader\\Parser\\NodeTraverser' => $vendorDir . '/classpreloader/classpreloader/src/ClassPreloader/Parser/NodeTraverser.php',
+    'CreatePostsTable' => $baseDir . '/app/database/migrations/2014_05_09_073625_create_posts_table.php',
     'CreateProfilesTable' => $baseDir . '/app/database/migrations/2014_05_08_005554_create_profiles_table.php',
     'CreateUsersTable' => $baseDir . '/app/database/migrations/2014_05_04_194153_create_users_table.php',
     'Crypt_AES' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Crypt/AES.php',
@@ -930,6 +932,8 @@ return array(
     'Predis\\Session\\SessionHandler' => $vendorDir . '/predis/predis/lib/Predis/Session/SessionHandler.php',
     'Predis\\Transaction\\AbortedMultiExecException' => $vendorDir . '/predis/predis/lib/Predis/Transaction/AbortedMultiExecException.php',
     'Predis\\Transaction\\MultiExecContext' => $vendorDir . '/predis/predis/lib/Predis/Transaction/MultiExecContext.php',
+    'Profile' => $baseDir . '/app/models/Profile.php',
+    'ProfilesController' => $baseDir . '/app/controllers/ProfilesController.php',
     'Psr\\Log\\AbstractLogger' => $vendorDir . '/psr/log/Psr/Log/AbstractLogger.php',
     'Psr\\Log\\InvalidArgumentException' => $vendorDir . '/psr/log/Psr/Log/InvalidArgumentException.php',
     'Psr\\Log\\LogLevel' => $vendorDir . '/psr/log/Psr/Log/LogLevel.php',

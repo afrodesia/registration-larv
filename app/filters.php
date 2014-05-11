@@ -75,7 +75,7 @@ Route::filter('currentUser', function($route)
 {
 	if (Auth::guest()) return Redirect::home();
 
-	if (Auth::uer()->username !== $route->parameter('profile'))
+	if (Auth::user()->username !== $route->parameter('profile'))
 	{
 		 return Redirect::home();
 	}
